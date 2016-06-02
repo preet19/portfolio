@@ -1,15 +1,15 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Nested.master.cs" Inherits="portfolio.Nested" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 
-<!-- 
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <!-- 
     Filename = Nested.master
     Author's name = Dilpreet Singh
     website = http://assign1-asp.azurewebsites.net/
     file description = master file contain all html , css code for contact me page
  -->
-
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
         <div class="row">
             <div class="col-md-offset-3 col-md-6">
@@ -39,7 +39,7 @@
                     <asp:Button CssClass="btn btn-default btn-lg" ID="CancelButton" Text="Cancel" runat="server" OnClick="CancelButton_Click" />
 
                 </div>
-                
+
             </div>
         </div>
     </div>
