@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+// the source code for contact form is modified from http://www.codeproject.com/
+
 namespace portfolio
 {
     public partial class Nested : System.Web.UI.MasterPage
