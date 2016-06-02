@@ -1,0 +1,37 @@
+﻿img {
+    width:920px;
+    border:5px solid green;
+}
+
+.description{
+    font-size:larger;
+}
+
+body {
+    background-image: url(../img/header.jpg);
+     background-position: center;
+     color:white;
+}
+
+.intro {
+    font-size:30px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.about {
+    text-align:center;
+    font-size:medium;
+}
+
+#myPic {
+    width:250px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.container {
+    font-size:medium;
+    font-style:italic;
+}
