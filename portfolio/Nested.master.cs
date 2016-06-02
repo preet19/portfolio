@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-// the source code for contact form is modified from http://www.codeproject.com/
+// the source code for contact form is modified from codeproject.com
 
 namespace portfolio
 {
