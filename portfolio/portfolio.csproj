@@ -71,9 +71,11 @@
     <Content Include="img\dilpreet.jpg" />
     <Content Include="img\header.jpg" />
     <Content Include="img\nav.PNG" />
+    <Content Include="img\pro.jpg" />
     <Content Include="img\who.PNG" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="Nested.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -137,6 +139,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nested.master.cs">
+      <DependentUpon>Nested.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nested.master.designer.cs">
+      <DependentUpon>Nested.master</DependentUpon>
     </Compile>
     <Compile Include="Projects.aspx.cs">
       <DependentUpon>Projects.aspx</DependentUpon>

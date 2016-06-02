@@ -1,6 +1,8 @@
 ﻿img {
     width:920px;
     border:5px solid green;
+    display: block;
+    margin: 0 auto;
 }
 
 .description{
